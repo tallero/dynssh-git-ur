@@ -1,6 +1,6 @@
 pkgbase = dynssh-git
 	pkgdesc = Simple SSH wrapper
-	pkgver = 1.1.5.r8.g59df6ee5b112d41d40e449eeaaddcbcf90ff5812
+	pkgver = 1.1.5.r22.g84bde3c42d2716d8f363a6b033db959f2ff2b5eb
 	pkgrel = 1
 	url = https://github.com/themartiancompany/dynssh
 	arch = any
@@ -14,7 +14,8 @@ pkgbase = dynssh-git
 	depends = libcrash-bash
 	depends = openssh
 	depends = ssh-utils
-	provides = dynssh=1.1.5.r8.g59df6ee5b112d41d40e449eeaaddcbcf90ff5812
+	depends = unused-local-port
+	provides = dynssh=1.1.5.r22.g84bde3c42d2716d8f363a6b033db959f2ff2b5eb
 	conflicts = dynssh
 	source = dynssh-master.tar.gz::https://github.com/themartiancompany/dynssh/archive/refs/heads/master.tar.gz
 	sha256sums = SKIP

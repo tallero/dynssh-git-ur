@@ -14,7 +14,7 @@ pkgbase="${_pkgbase}-git"
 pkgname=(
   "${pkgbase}"
 )
-pkgver="1.1.5".r8.g"59df6ee5b112d41d40e449eeaaddcbcf90ff5812"
+pkgver="1.1.5".r22.g"84bde3c42d2716d8f363a6b033db959f2ff2b5eb"
 pkgrel=1
 pkgdesc="Simple SSH wrapper"
 arch=(
@@ -35,6 +35,7 @@ depends=(
   "libcrash-bash"
   "open${_pkg}"
   "${_pkg}-utils"
+  "unused-local-port"
 )
 makedepends=(
 )
